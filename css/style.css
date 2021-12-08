@@ -1,4 +1,11 @@
-.container {
+body {
+    background-color: #25272c;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  
+  .container {
     background: #eb5bec;
     border-radius: 16px;
     display: grid;
@@ -9,11 +16,21 @@
     width: 315px;
   }
   
-  /* Presentational styles */
-  body {
-    background-color: #25272c;
-    display: grid;
-    place-items: center;
-    height: 100vh;
+  .box {
+    background: #471e45;
+    height: 100px;
+    opacity: 0.5;
+    position: absolute;
+    width: 100px;
   }
-  
+
+  @keyframes grow {
+    from {
+      opacity: 0.5;
+      transform: scale(0);
+    }
+    to {
+      opacity: 0;
+      transform: scale(3.85);
+    }
+  }
