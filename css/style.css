@@ -1,6 +1,19 @@
 .container {
-    background-color: #eb5bec;
-    height: 315px;
+    background: #eb5bec;
+    border-radius: 16px;
+    display: grid;
+    height: 385px;
+    overflow: hidden;
+    place-items: center;
     position: relative;
-    width: 385px;
+    width: 315px;
   }
+  
+  /* Presentational styles */
+  body {
+    background-color: #25272c;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  
