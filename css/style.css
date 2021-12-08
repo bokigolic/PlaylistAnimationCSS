@@ -15,6 +15,33 @@ body {
     position: relative;
     width: 315px;
   }
+  .container::after {
+    background-image: url("https://assets.codepen.io/9632/dolby-atmos.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .content {
+    color: #fff;
+    font-family: system-ui;
+    position: relative;
+    text-align: center;
+    top: -6rem;
+    z-index: 2;
+  }
+  .content h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  .content p {
+    margin: 0;
+  }
   
   .box {
     --delay: 1s;
